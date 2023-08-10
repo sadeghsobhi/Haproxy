@@ -1,4 +1,5 @@
 # Haproxy
+```
 global
         log /dev/log    local0
         log /dev/log    local1 notice
@@ -78,3 +79,4 @@ backend http_servers
         server http_server1 192.168.x.x:80
         server http_server2 192.168.x.x:80
         server http_server3 192.168.x.x:80
+```
